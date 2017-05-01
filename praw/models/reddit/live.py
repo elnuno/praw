@@ -241,7 +241,7 @@ class LiveThread(RedditBase):
 
     @property
     def contrib(self):
-        """An instance of :class:`.LiveThreadContribution`.
+        """Provide an instance of :class:`.LiveThreadContribution`.
 
         Usage:
 
@@ -257,12 +257,12 @@ class LiveThread(RedditBase):
 
     @property
     def contributor(self):
-        """An instance of :class:`.LiveContributorRelationship`.
+        """Provide an instance of :class:`.LiveContributorRelationship`.
 
         You can call the instance to get a list of contributors which is
         represented as :class:`.RedditorList` instance consists of
         :class:`.Redditor` instances. Those Redditor instances have
-        `permissions` attributes as contributors:
+        ``permissions`` attributes as contributors:
 
         .. code-block:: python
 
@@ -525,7 +525,7 @@ class LiveUpdate(RedditBase):
 
     @property
     def contrib(self):
-        """An instance of :class:`.LiveUpdateContribution`.
+        """Provide an instance of :class:`.LiveUpdateContribution`.
 
         Usage:
 
